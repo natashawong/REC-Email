@@ -13,12 +13,13 @@ Here's the template for the emails we send out, and a quick guide on how to begi
 # Making Those Edits
 
 1. I've divided the HTML email template into a couple different sections, indicated by the comments so you know where they are. 
-2. The basic gist of things is – if you want to edit the text of something, edit it within the "<td> </td>" tags. And if you want to create a new section header, you would copy the entire section header part (indicated by <!-- SECTION HEADER --> and <!-- END SECTION HEADER -->) and paste it beneath. 
-3. For styling – place words within <b> </b> tags to make them bold, <i> </i> tags to make them italic, and <u> </u> tags to underline them. 
-4. You would also want to know how to line break (go to the next line/have a space in between paragraphs) by using <br> in between your text.
+2. The basic gist of things is – if you want to edit the text of something, edit it within the "td" tags. And if you want to create a new section header, you would copy the entire section header part (indicated by SECTION HEADER and END SECTION HEADER) and paste it beneath. 
+3. For styling – place words within "b" tags to make them bold, "i" tags to make them italic, and "u" tags to underline them. 
+4. You would also want to know how to line break (go to the next line/have a space in between paragraphs) by using "br" in between your text.
 
-e.g. in the code: 
-<td> this is one <br> now two lines </td>
+e.g. 
+in the code: 
+"td" this is one "br" now two lines "/td"
 
 in the email: 
 this is one
